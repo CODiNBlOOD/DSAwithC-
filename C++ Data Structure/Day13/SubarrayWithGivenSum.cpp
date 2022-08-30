@@ -19,7 +19,7 @@ while(j<n && sum+a[j]<s) // means our start point
 }
 
 if(sum==s){
-    cout<<sum<<endl;
+    cout<<i+1<<" "<<j<<endl;
     return 0;
 }
 
