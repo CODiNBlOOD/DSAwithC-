@@ -19,14 +19,14 @@ while(j<n && sum+a[j]<=s) // means our start point
 }
 
 if(sum==s){
-    cout<<i+1<<" "<<j<<endl;
+    cout<<i+1<<" "<<j<<endl; // ith index start from 1 
     return 0;
 }
 
 while(j<n){
     sum+=a[j];
     while(sum>s){
-        sum-=a[i];
+        sum-=a[i]; // sum = sum-a[i] means if sum =6 then 6 -a[i] = 6-1 = 5 and now below i++; and after loop if sum == s check and if yes then break the loop;
         i++;
     }
     if(sum==s){
