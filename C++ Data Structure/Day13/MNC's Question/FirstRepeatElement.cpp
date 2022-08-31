@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    const int N = 1e6+2; // According to constraints and by const No one canchange this value if try check it shows error 
+    const int N = 1e6+2; // According to constraints and by const No one can change this value if try check it shows error 
    int  idx[N];
     for(int i=0;i<N;i++){
      idx[i]=-1; // means if we enter value <=1e6+2 then all becomes -1 
