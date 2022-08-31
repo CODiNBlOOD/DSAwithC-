@@ -23,7 +23,7 @@ int main(){
     // now check which number is missing  
 
     int ans = -1; // because if we can't find answer then it will be -1 , it will not become 0 or 1 so we did't get wrong answer
-    for(int i=1;i<N;i++){  //why N because it is checking whole check arry which we declared ablove  and i =1 because we want positive numbe
+    for(int i=1;i<N;i++){  //why N because it is checking whole check arry which we declared ablove  and i =1 because we want positive number as we compare after 0 as our smallest positive number because before 0 there is negative number -1 , and after 0 is + number that is 1 , that's why we start from 1 
       if(check[i]==0){
         ans=i;
         break;
